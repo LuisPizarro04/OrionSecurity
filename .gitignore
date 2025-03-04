@@ -1,6 +1,6 @@
 osecurity-env
 # Ignorar todos el contenido de las carpetas migrations
-*/migrations/
+**/migrations/*
 
 # Exceptuar el archivo _init_.py
 !**/migrations/_init_.py
