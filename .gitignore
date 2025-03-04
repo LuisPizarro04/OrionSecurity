@@ -1,0 +1,11 @@
+osecurity-env
+# Ignorar todos el contenido de las carpetas migrations
+*/migrations/
+
+# Exceptuar el archivo _init_.py
+!**/migrations/_init_.py
+
+# Ignorar el archivo de base de datos SQLite
+db.sqlite3
+
+_pycache_/
