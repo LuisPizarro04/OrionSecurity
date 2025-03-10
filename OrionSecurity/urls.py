@@ -24,5 +24,6 @@ urlpatterns = [
     path('api/v1/libro_novedades/', include('libro_novedades.urls')),
     path('api/v1/notificaciones/', include('notificaciones.urls')),
     path('api/v1/turnos/', include('turnos.urls')),
+    path('api/users/', include('users.urls')),
 
 ]
